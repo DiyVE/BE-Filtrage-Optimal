@@ -1,19 +1,24 @@
 # BE Filtrage optimal et compte rendu du travail effectué
 
 ## Introduction
-Dans ce dossier vous trouverez tout d'abord plusieurs vidéos expliquant les différentes composantes du système de navigation utilisé dans robot participant a la coupe de France de robotique 2023. De plus vous retrouverez les slides des présentées dans les videos ainsi que les codes correspondant au filtrage de Kalman.
+Ce dossier contient les codes produits faisant appel au filtrage de Kalman ainsi que les slides présentés dans les vidéos.
+En effet vous trouverez ci dessous les liens vers des vidéos présentant le travail effectué.
 
 ## Videos
 ### 1. Introduction à la coupe de France de Robotique 
+[Lien vers la vidéo](https://polymny.studio/v/3DejV/)
 Dans cette vidéo vous trouverez une présentation de la coupe de France de robotique ainsi que des différents défis qui sont a relever cette année. De plus l'architecture logiciel sera ici présentée afin de donner du contexte aux vidéos suivantes.
 
 ### 2. Positionnement lidar
+[A venir](...)
 Cette vidéo présente le fonctionnement du système permettant de placer le robot et des potentiels obstacles sur le plateau de jeu.
 
 ### 3. Fusion des capteurs et Estimation de la position des Ennemis
+[A venir](...)
 Ici nous présenterons les différents algorithmes se basant sur le filtrage de Kalman permettant dans un premier temps d'obtenir une estimation plus précise et moins bruitée de la position du robot. Et dans un second temps d'estimer la position des ennemis (obstacles) présents sur le plateau de jeu.
 
-### 4. Noeud de Navigation  
+### 4. Noeud de Navigation
+[Lien vers la vidéo](https://drive.google.com/file/d/1D4rdq3Z5j8yqn6Kk88j0iWKAar3zTYeO/view)
 Ici sera présenté le noeud de navigation qui permet au robot de se déplacer sur le plateau de jeu de manière rapide tout en évitant les obstacles.
 
 ## Slides 
