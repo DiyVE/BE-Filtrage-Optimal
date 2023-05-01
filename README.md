@@ -16,10 +16,16 @@ Ici nous présenterons les différents algorithmes se basant sur le filtrage de 
 ### 4. Noeud de Navigation  
 Ici sera présenté le noeud de navigation qui permet au robot de se déplacer sur le plateau de jeu de manière rapide tout en évitant les obstacles.
 
+## Slides 
+Les slides présentés dans les vidéos sont disponibles en pdf à la racine de ce dossier. De plus afin de pouvoir visualiser les gifs présents sur les transparents, vous pouvez accèder à la visionneuse en ligne en cliquant sur le lien suivant : [Visionneuse](https://docs.google.com/presentation/d/e/2PACX-1vRQYQfNccN41Cf5IWjL6nRUtd15CT7ILjTp0NbM19YL2TLo_ZCS5epXIBjujxFY5e2HkT87-7fDsdKH/pub?start=true&loop=false&delayms=60000)
+
 ## Notes pour le code
 Deux fichiers python sont présents dans le dossier `code`:
-- `Filtrage_position_ennemis` : Ce fichier contient le code permettant de filtrer la position des ennemis sur le plateau de jeu.
-- `Filtrage_position_robot` : Ce fichier contient le code permettant de filtrer la position du robot sur le plateau de jeu.
+- `Kalman_filter_ennemis.py` : Ce fichier contient le code permettant de filtrer la position des ennemis sur le plateau de jeu.
+
+- `Kalman_filter_robot_method_1.py` : Ce fichier contient le code permettant de filtrer la position du robot sur le plateau de jeu en utilisant une première méthode qui consiste à utiliser l'odométrie pour faire de la prédiction.
+
+- `Kalman_filter_robot_method_2.py` : Ce fichier contient le code permettant de filtrer la position du robot sur le plateau de jeu en utilisant une deuxième méthode qui en plus d'un prédiction odométrique, se repose sur une loi a priori suivant les lois du mouvements.
 
 ### 1. Installation des dépendances
 Afin de simplifier l'installation des dépendances, un fichier `requirements.txt` est présent dans le dossier `code`. Pour installer les dépendances, il suffit de se placer dans le dossier `code` et d'exécuter la commande suivante :
