@@ -10,7 +10,7 @@ En effet vous trouverez ci dessous les liens vers des vidéos présentant le tra
 Dans cette vidéo vous trouverez une présentation de la coupe de France de robotique ainsi que des différents défis qui sont a relever cette année. De plus l'architecture logiciel sera ici présentée afin de donner du contexte aux vidéos suivantes.
 
 ### 2. Positionnement lidar
-[A venir](...)
+[Lien vers la vidéo](https://polymny.studio/v/kWxWp/)
 Cette vidéo présente le fonctionnement du système permettant de placer le robot et des potentiels obstacles sur le plateau de jeu.
 
 ### 3. Fusion des capteurs et Estimation de la position des Ennemis
