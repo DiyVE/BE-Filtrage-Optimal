@@ -14,7 +14,7 @@ Dans cette vidéo vous trouverez une présentation de la coupe de France de robo
 Cette vidéo présente le fonctionnement du système permettant de placer le robot et des potentiels obstacles sur le plateau de jeu.
 
 ### 3. Fusion des capteurs et Estimation de la position des Ennemis
-[A venir](...)
+[Lien vers la vidéo](https://polymny.studio/v/kWxWp/)
 Ici nous présenterons les différents algorithmes se basant sur le filtrage de Kalman permettant dans un premier temps d'obtenir une estimation plus précise et moins bruitée de la position du robot. Et dans un second temps d'estimer la position des ennemis (obstacles) présents sur le plateau de jeu.
 
 ### 4. Noeud de Navigation
